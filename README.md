@@ -8,7 +8,7 @@ Spring Boot application for managing fitness club users, clubs, and workouts wit
 - Fitness club management
 - Workout management
 - MySQL persistence with Spring Data JPA
-- Controller and repository test coverage
+- Controller, repository, and integration test coverage
 
 ## Stack
 
