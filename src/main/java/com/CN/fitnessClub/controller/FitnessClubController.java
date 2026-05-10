@@ -19,9 +19,6 @@ public class FitnessClubController {
     @Autowired
     private FitnessClubService fitnessClubService;
 
-    @Autowired
-    private UserService userService;
-
     @GetMapping("/all")
     @ResponseStatus(HttpStatus.OK)
     @PreAuthorize("hasRole('ADMIN')")

@@ -31,12 +31,8 @@ public class FitnessClubService {
         return fitnessClubRepository.findById(id).orElseThrow(() -> new FitnessClubNotFoundException("Gym not found with id: " + id));
     }
 
-    public boolean deleteFitnessClubById(Long id) {
-        if(fitnessClubRepository.existsById(id)){
-            fitnessClubRepository.deleteById(id);
-            return true;
-        }else
-            return false;
+    public void deleteFitnessClubById(Long id) {
+         fitnessClubRepository.deleteById(id);
     }
 
     public void updateFitnessClub(FitnessClubDto fitnessClubDto, Long id) {

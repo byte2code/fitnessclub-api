@@ -2,13 +2,10 @@ package com.CN.fitnessClub.service;
 
 import com.CN.fitnessClub.dto.UserRequest;
 import com.CN.fitnessClub.dto.WorkoutDto;
-import com.CN.fitnessClub.exception.UserNotFoundException;
-import com.CN.fitnessClub.model.Role;
 import com.CN.fitnessClub.model.User;
 import com.CN.fitnessClub.model.Workout;
 import com.CN.fitnessClub.repository.UserRepository;
 import com.CN.fitnessClub.repository.WorkoutRepository;
-import com.CN.fitnessClub.service.UserService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
